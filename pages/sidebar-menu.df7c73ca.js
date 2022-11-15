@@ -1,0 +1,2 @@
+const e={nav:document.querySelector("[data-nav]"),menuToggle:document.querySelector("[data-menu-toggle]"),menuItems:document.querySelectorAll("[data-menu-item]")};function t(){e.menuItems.forEach((e=>e.classList.remove("active"))),this.classList.add("active")}e.menuToggle.addEventListener("click",(function(){e.nav.classList.toggle("active")})),e.menuItems.forEach((e=>e.addEventListener("click",t)));
+//# sourceMappingURL=sidebar-menu.df7c73ca.js.map

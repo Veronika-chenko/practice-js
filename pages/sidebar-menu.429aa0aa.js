@@ -1,0 +1,2 @@
+!function(){var e={nav:document.querySelector("[data-nav]"),menuToggle:document.querySelector("[data-menu-toggle]"),menuItems:document.querySelectorAll("[data-menu-item]")};function t(){e.menuItems.forEach((function(e){return e.classList.remove("active")})),this.classList.add("active")}e.menuToggle.addEventListener("click",(function(){e.nav.classList.toggle("active")})),e.menuItems.forEach((function(e){return e.addEventListener("click",t)}))}();
+//# sourceMappingURL=sidebar-menu.429aa0aa.js.map
