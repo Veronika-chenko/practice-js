@@ -2,9 +2,10 @@
     min-height: 100vh;
     background-color: #2f323f;
     .go-back-link {
-        position: absolute;
-        right: 20px;
         color: #fff;
+        &:hover {
+            color: #d5d5d5;
+        }
     }
 }
 
@@ -15,7 +16,7 @@
     align-items: center;
     width: 75px;
 
-    inset: 40px 0 40px 20px;
+    inset: 60px 0 40px 20px;
     background-color: #fff;
     width: 75px;
     transition: 0.5s;

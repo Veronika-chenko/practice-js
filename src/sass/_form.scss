@@ -187,7 +187,7 @@ textarea.form__input {
 .checkbox__input {
     display: none;
     &:checked + .checkbox__label::after {
-        transform: scale(1);
+        visibility: visible;
     }
 }
 
@@ -208,18 +208,22 @@ textarea.form__input {
         background-color: #fff;
         border-radius: 4px;
     }
+    
     &::after {
         content: "";
         position: absolute;
-        top: 4px;
-        left: 4px;
-        width: 16px;
+        top: 2px;
+        left: 8px;
+        transform: translateY(0) rotate(45deg);
+        
+        width: 8px;
         height: 16px;
-        background-color: #7a956b;
-        border-radius: 4px;
-        transform: scale(0);
+        border-right: 3px solid #7a956b;
+        border-bottom: 3px solid #7a956b;
+        visibility: hidden;
         transition: transform 0.3s ease 0s;
     }
+
     a {
         color: #7a956b;
     }
